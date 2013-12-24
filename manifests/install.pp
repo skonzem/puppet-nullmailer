@@ -1,4 +1,4 @@
-class nullmailer::package {
+class nullmailer::install {
   package { $nullmailer::package:
     ensure => present,
   }

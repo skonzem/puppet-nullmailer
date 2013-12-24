@@ -1,5 +1,6 @@
 Puppet module for nullmailer
 ============================
+[![Build Status](https://travis-ci.org/akumria/puppet-nullmailer.png)](https://travis-ci.org/akumria/puppet-nullmailer)
 
 Nullmailer is useful in situations where you have machines but do not wish
 to configure them with a full email service (mail transfer agent, MTA).

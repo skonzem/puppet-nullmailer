@@ -10,7 +10,7 @@ class nullmailer (
 ) inherits nullmailer::params {
 
   anchor {'nullmailer::start':}->
-  class {'nullmailer::package':}~>
+  class {'nullmailer::install':}~>
   class {'nullmailer::config':}~>
   class {'nullmailer::service':}~>
   anchor {'nullmailer::end':}
